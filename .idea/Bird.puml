@@ -26,7 +26,7 @@ interface DanceImpl {
     +jump(): void
 }
 
-DanceImpl <|-- Bird
+DanceImpl <|.. Bird
 Bird <|-- Pigeon
 Bird <|-- Penguin
 
