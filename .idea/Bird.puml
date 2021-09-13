@@ -20,6 +20,13 @@ class Penguin {
     +fly(): void
 }
 
+interface DanceImpl {
+    +spin(): void
+    +doTheCatterpillar(): void
+    +jump(): void
+}
+
+DanceImpl <|-- Bird
 Bird <|-- Pigeon
 Bird <|-- Penguin
 
