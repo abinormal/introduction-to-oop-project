@@ -10,4 +10,10 @@ class Bird {
     +fly():void
 }
 
+class Pigeon {
+    +eatPizza(): void
+}
+
+Bird <|-- Pigeon
+
 @enduml
