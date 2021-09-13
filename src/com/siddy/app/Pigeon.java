@@ -9,7 +9,7 @@ public class Pigeon extends Bird {
 
     @Override
     public void speak() {
-        // Have to implement speak() as Bird is abstract
+        // Have to implement speak() as its abstract
         System.out.println("Yo! I'm " + name + " and I'm a " + color + " pigeon.");
     }
 
