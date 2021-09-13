@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 
-class Bird {
+abstract class Bird {
     + name: String
     + colour: String
 
