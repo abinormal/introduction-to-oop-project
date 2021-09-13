@@ -6,14 +6,21 @@ abstract class Bird {
     + name: String
     + colour: String
 
-    +speak(): void
+    {abstract} +speak(): void
     +fly():void
 }
 
 class Pigeon {
+    +speak(): void
     +eatPizza(): void
 }
 
+class Penguin {
+    +speak(): void
+    +fly(): void
+}
+
 Bird <|-- Pigeon
+Bird <|-- Penguin
 
 @enduml
